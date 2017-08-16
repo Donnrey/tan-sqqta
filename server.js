@@ -16,8 +16,8 @@ app.get('/signup', function(req, res){
 app.get('/login', function(req, res){
   res.sendFile(path.join(__dirname, 'login.html'));
 });
-app.get('/profile', function(req, res){
-  res.sendFile(path.join(__dirname, 'profile.html'));
+app.get('/user', function(req, res){
+  res.sendFile(path.join(__dirname, 'user.html'));
 });
 
 //express server listen
